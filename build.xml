@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<project name="bbwsclient-gbextract" basedir="." default="produce">
+
+  <property name="lib.dir" value="./lib/axis2-1.6.2/lib" />
+
+  <path id="project.class.path">
+    <fileset dir="${lib.dir}">
+      <include name="**/*.jar" />
+    </fileset>
+    <pathelement path="${java.class.path}" />
+  </path>
+
+  <!-- source directories -->
+  <property name="src.dir"       value="${basedir}/src"       />
+  <property name="resource.dir"  value="${basedir}/resources" />
+
+  <!-- generated directories -->
+  <property name="srcws.dir"     value="${basedir}/_src_ws_"     />
+  <property name="classes.dir"   value="${basedir}/_classes_"    />
+  <property name="classesws.dir" value="${basedir}/_classes_ws_" />
+  <property name="dist.dir"      value="${basedir}/_dist_"       />
+  <property name="work.dir"      value="${basedir}/_work_"       />
+
+  <!-- application properties -->
+  <loadproperties srcfile="./application.properties" />
+  <property name="ws.baseurl" value="${ws.protocol}://${ws.hostname}/webapps/ws/services"     />
+
+  <target name="clean" description="Clean all build products.">
+    <delete dir="${classes.dir}"   failonerror="false" />
+    <delete dir="${srcws.dir}"     failonerror="false" />
+    <delete dir="${classesws.dir}" failonerror="false" />
+    <delete dir="${dist.dir}"      failonerror="false" />
+    <delete dir="${work.dir}"      failonerror="false" />
+  </target>
+
+  <target name="wsdl.wsdl2java" description="Converts the WSDL endpoints to Java source.">
+    <taskdef name="codegen" classname="org.apache.axis2.tool.ant.AntCodegenTask" classpathref="project.class.path" />
+    <!-- http://axis.apache.org/axis2/java/core/tools/CodegenToolReference.html -->
+    <codegen wsdlfilename="${ws.baseurl}/Context.WS?wsdl"          output="${srcws.dir}" databindingName="adb" syncOnly="true">
+      <!-- <classpath location="${src.dir}" /> -->
+    </codegen>
+    <codegen wsdlfilename="${ws.baseurl}/Course.WS?wsdl"           output="${srcws.dir}" databindingName="adb" syncOnly="true"  />
+    <codegen wsdlfilename="${ws.baseurl}/CourseMembership.WS?wsdl" output="${srcws.dir}" databindingName="adb" syncOnly="true"  />
+    <codegen wsdlfilename="${ws.baseurl}/Gradebook.WS?wsdl"        output="${srcws.dir}" databindingName="adb" syncOnly="true"  />
+    <codegen wsdlfilename="${ws.baseurl}/User.WS?wsdl"             output="${srcws.dir}" databindingName="adb" syncOnly="true"  />
+    <codegen wsdlfilename="${ws.baseurl}/Util.WS?wsdl"             output="${srcws.dir}" databindingName="adb" syncOnly="true"  />
+  </target>
+
+  <target name="wsdl.compile" depends="wsdl.wsdl2java" description="Compiles the WSDL generated sources.">
+    <mkdir dir="${classesws.dir}" />
+    <javac srcdir="${srcws.dir}" destdir="${classesws.dir}" debug="true" debuglevel="lines,vars,source" deprecation="false">
+      <classpath refid="project.class.path" />
+    </javac>
+  </target>
+
+  <target name="client.compile" description="Compiles the Java source.">
+    <property name="src.compile" value="true" />
+
+    <mkdir     dir="${classes.dir}" />
+    <javac destdir="${classes.dir}" srcdir="${src.dir}" debug="true" debuglevel="lines,vars,source" deprecation="false">
+      <classpath refid="project.class.path" />
+      <classpath location="${classesws.dir}" />
+    </javac>
+  </target>
+
+  <target name="produce" depends="wsdl.compile,client.compile" description="Builds the entire solution." />
+
+  <target name="launchExtract" description="Launches the full grade extract application.">
+    <!-- If this value is set on the command line, this property has no effect.
+         If NOT set on the command line, this property declaration sets the
+         property to an empty string.
+    -->
+    <property name="appConfig" value="${basedir}/application.properties" />
+
+    <java classname="blackboard.ws.client.GradeExtractApp" fork="true" maxmemory="1024m">
+      <!-- passed via command line via -DappConfig=X -->
+      <arg value="${appConfig}"/>
+      <classpath refid="project.class.path"  />
+      <classpath location="${classesws.dir}" />
+      <classpath location="${classes.dir}"   />
+      <classpath location="${src.dir}"       />
+    </java>
+  </target>
+
+  <target name="launchSample" description="Launches the sample extract application.">
+    <!-- If this value is set on the command line, this property has no effect.
+         If NOT set on the command line, this property declaration sets the
+         property to an empty string.
+    -->
+    <property name="courseId" value="amarillo-101" />
+
+    <java classname="blackboard.ws.client.SampleExtractApp" fork="true" maxmemory="1024m">
+      <arg value="${basedir}/application.properties"/>
+      <!-- passed via command line via -DcourseId=X -->
+      <arg value="${courseId}"/>
+      <classpath refid="project.class.path"  />
+      <classpath location="${classesws.dir}" />
+      <classpath location="${classes.dir}"   />
+      <classpath location="${src.dir}"       />
+    </java>
+  </target>
+
+  <target name="dist" description="Package everything for distribution.">
+
+    <mkdir  dir="${work.dir}/src" />
+    <copy todir="${work.dir}/src">
+      <fileset dir="${src.dir}">
+        <include name="**/*.*" />
+      </fileset>
+    </copy>
+
+    <copy todir="${work.dir}">
+      <fileset dir="${basedir}">
+        <include name="${src.dir}/**/*.*" />
+        <include name="application.properties.template" />
+        <include name="build.xml"                       />
+        <include name="readme.txt"                      />
+      </fileset>
+    </copy>
+
+    <tstamp>
+      <format property="touch.date" pattern="yyyyMMdd_HHmmss" />
+    </tstamp>
+
+    <mkdir    dir="${dist.dir}" />
+    <zip destfile="${dist.dir}/SampleBbWebServiceClient_${touch.date}.zip">
+      <fileset dir="${work.dir}" />
+    </zip>
+
+    <echo message="Application built and resides in ${dist.dir}" />
+  </target>
+
+</project>

@@ -1,0 +1,190 @@
+2015-10-01 14:21:16 | INFO  |  43:blackboard.ws.client.SampleExtractApp              | Creating Web Service Client
+2015-10-01 14:21:16 | INFO  | 160:blackboard.ws.client.WebServiceClient              | Initializing...
+2015-10-01 14:21:16 | ERROR | 275:org.apache.axis2.deployment.AxisConfigBuilder      | org.apache.axis2.jaxws.framework.JAXWSDeployer
+java.lang.ClassNotFoundException: org.apache.axis2.jaxws.framework.JAXWSDeployer
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at org.apache.axis2.util.Loader.loadClass(Loader.java:261)
+	at org.apache.axis2.deployment.AxisConfigBuilder.processDeployers(AxisConfigBuilder.java:272)
+	at org.apache.axis2.deployment.AxisConfigBuilder.populateConfig(AxisConfigBuilder.java:219)
+	at org.apache.axis2.deployment.DeploymentEngine.populateAxisConfiguration(DeploymentEngine.java:615)
+	at org.apache.axis2.deployment.FileSystemConfigurator.getAxisConfiguration(FileSystemConfigurator.java:115)
+	at org.apache.axis2.context.ConfigurationContextFactory.createConfigurationContext(ConfigurationContextFactory.java:64)
+	at org.apache.axis2.context.ConfigurationContextFactory.createConfigurationContextFromFileSystem(ConfigurationContextFactory.java:180)
+	at blackboard.ws.client.WebServiceClient.initialize(WebServiceClient.java:164)
+	at blackboard.ws.client.SampleExtractApp.main(SampleExtractApp.java:52)
+2015-10-01 14:21:17 | INFO  | 204:blackboard.ws.client.WebServiceClient              | Checking versions...
+2015-10-01 14:21:52 | INFO  |  43:blackboard.ws.client.SampleExtractApp              | Creating Web Service Client
+2015-10-01 14:21:52 | INFO  | 160:blackboard.ws.client.WebServiceClient              | Initializing...
+2015-10-01 14:21:52 | ERROR | 275:org.apache.axis2.deployment.AxisConfigBuilder      | org.apache.axis2.jaxws.framework.JAXWSDeployer
+java.lang.ClassNotFoundException: org.apache.axis2.jaxws.framework.JAXWSDeployer
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at org.apache.axis2.util.Loader.loadClass(Loader.java:261)
+	at org.apache.axis2.deployment.AxisConfigBuilder.processDeployers(AxisConfigBuilder.java:272)
+	at org.apache.axis2.deployment.AxisConfigBuilder.populateConfig(AxisConfigBuilder.java:219)
+	at org.apache.axis2.deployment.DeploymentEngine.populateAxisConfiguration(DeploymentEngine.java:615)
+	at org.apache.axis2.deployment.FileSystemConfigurator.getAxisConfiguration(FileSystemConfigurator.java:115)
+	at org.apache.axis2.context.ConfigurationContextFactory.createConfigurationContext(ConfigurationContextFactory.java:64)
+	at org.apache.axis2.context.ConfigurationContextFactory.createConfigurationContextFromFileSystem(ConfigurationContextFactory.java:180)
+	at blackboard.ws.client.WebServiceClient.initialize(WebServiceClient.java:164)
+	at blackboard.ws.client.SampleExtractApp.main(SampleExtractApp.java:52)
+2015-10-01 14:21:52 | INFO  | 204:blackboard.ws.client.WebServiceClient              | Checking versions...
+2015-10-01 14:27:08 | INFO  |  43:blackboard.ws.client.SampleExtractApp              | Creating Web Service Client
+2015-10-01 14:27:08 | INFO  | 160:blackboard.ws.client.WebServiceClient              | Initializing...
+2015-10-01 14:27:08 | ERROR | 275:org.apache.axis2.deployment.AxisConfigBuilder      | org.apache.axis2.jaxws.framework.JAXWSDeployer
+java.lang.ClassNotFoundException: org.apache.axis2.jaxws.framework.JAXWSDeployer
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at org.apache.axis2.util.Loader.loadClass(Loader.java:261)
+	at org.apache.axis2.deployment.AxisConfigBuilder.processDeployers(AxisConfigBuilder.java:272)
+	at org.apache.axis2.deployment.AxisConfigBuilder.populateConfig(AxisConfigBuilder.java:219)
+	at org.apache.axis2.deployment.DeploymentEngine.populateAxisConfiguration(DeploymentEngine.java:615)
+	at org.apache.axis2.deployment.FileSystemConfigurator.getAxisConfiguration(FileSystemConfigurator.java:115)
+	at org.apache.axis2.context.ConfigurationContextFactory.createConfigurationContext(ConfigurationContextFactory.java:64)
+	at org.apache.axis2.context.ConfigurationContextFactory.createConfigurationContextFromFileSystem(ConfigurationContextFactory.java:180)
+	at blackboard.ws.client.WebServiceClient.initialize(WebServiceClient.java:164)
+	at blackboard.ws.client.SampleExtractApp.main(SampleExtractApp.java:52)
+2015-10-01 14:27:09 | INFO  | 204:blackboard.ws.client.WebServiceClient              | Checking versions...
+2015-10-01 14:28:43 | INFO  |  43:blackboard.ws.client.SampleExtractApp              | Creating Web Service Client
+2015-10-01 14:28:43 | INFO  | 160:blackboard.ws.client.WebServiceClient              | Initializing...
+2015-10-01 14:28:43 | ERROR | 113:org.apache.axis2.deployment.ModuleDeployer         | The rampart-1.6.2.mar module, which is not valid, caused org/apache/ws/secpolicy/WSSPolicyException
+java.lang.NoClassDefFoundError: org/apache/ws/secpolicy/WSSPolicyException
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getConstructor0(Class.java:3075)
+	at java.lang.Class.newInstance(Class.java:412)
+	at org.apache.axis2.deployment.util.Utils$1.run(Utils.java:100)
+	at org.apache.axis2.java.security.AccessController.doPrivileged(AccessController.java:132)
+	at org.apache.axis2.deployment.util.Utils.addFlowHandlers(Utils.java:96)
+	at org.apache.axis2.deployment.DeploymentEngine.addNewModule(DeploymentEngine.java:549)
+	at org.apache.axis2.deployment.ModuleDeployer.deploy(ModuleDeployer.java:80)
+	at org.apache.axis2.deployment.repository.util.DeploymentFileData.deploy(DeploymentFileData.java:136)
+	at org.apache.axis2.deployment.DeploymentEngine.doDeploy(DeploymentEngine.java:813)
+	at org.apache.axis2.deployment.RepositoryListener.loadClassPathModules(RepositoryListener.java:222)
+	at org.apache.axis2.deployment.RepositoryListener.init2(RepositoryListener.java:71)
+	at org.apache.axis2.deployment.RepositoryListener.<init>(RepositoryListener.java:64)
+	at org.apache.axis2.deployment.DeploymentEngine.loadRepository(DeploymentEngine.java:158)
+	at org.apache.axis2.deployment.FileSystemConfigurator.getAxisConfiguration(FileSystemConfigurator.java:133)
+	at org.apache.axis2.context.ConfigurationContextFactory.createConfigurationContext(ConfigurationContextFactory.java:64)
+	at org.apache.axis2.context.ConfigurationContextFactory.createConfigurationContextFromFileSystem(ConfigurationContextFactory.java:210)
+	at blackboard.ws.client.WebServiceClient.initialize(WebServiceClient.java:164)
+	at blackboard.ws.client.SampleExtractApp.main(SampleExtractApp.java:52)
+Caused by: java.lang.ClassNotFoundException: org.apache.ws.secpolicy.WSSPolicyException
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 20 more
+2015-10-01 14:28:43 | INFO  | 112:blackboard.ws.client.SampleExtractApp              | EXTRACT COMPLETE
+2015-10-01 14:32:59 | INFO  |  43:blackboard.ws.client.SampleExtractApp              | Creating Web Service Client
+2015-10-01 14:32:59 | INFO  | 160:blackboard.ws.client.WebServiceClient              | Initializing...
+2015-10-01 14:32:59 | ERROR | 113:org.apache.axis2.deployment.ModuleDeployer         | The rampart-1.6.2.mar module, which is not valid, caused org/apache/ws/secpolicy/WSSPolicyException
+java.lang.NoClassDefFoundError: org/apache/ws/secpolicy/WSSPolicyException
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getConstructor0(Class.java:3075)
+	at java.lang.Class.newInstance(Class.java:412)
+	at org.apache.axis2.deployment.util.Utils$1.run(Utils.java:100)
+	at org.apache.axis2.java.security.AccessController.doPrivileged(AccessController.java:132)
+	at org.apache.axis2.deployment.util.Utils.addFlowHandlers(Utils.java:96)
+	at org.apache.axis2.deployment.DeploymentEngine.addNewModule(DeploymentEngine.java:549)
+	at org.apache.axis2.deployment.ModuleDeployer.deploy(ModuleDeployer.java:80)
+	at org.apache.axis2.deployment.repository.util.DeploymentFileData.deploy(DeploymentFileData.java:136)
+	at org.apache.axis2.deployment.DeploymentEngine.doDeploy(DeploymentEngine.java:813)
+	at org.apache.axis2.deployment.RepositoryListener.loadClassPathModules(RepositoryListener.java:222)
+	at org.apache.axis2.deployment.RepositoryListener.init2(RepositoryListener.java:71)
+	at org.apache.axis2.deployment.RepositoryListener.<init>(RepositoryListener.java:64)
+	at org.apache.axis2.deployment.DeploymentEngine.loadRepository(DeploymentEngine.java:158)
+	at org.apache.axis2.deployment.FileSystemConfigurator.getAxisConfiguration(FileSystemConfigurator.java:133)
+	at org.apache.axis2.context.ConfigurationContextFactory.createConfigurationContext(ConfigurationContextFactory.java:64)
+	at org.apache.axis2.context.ConfigurationContextFactory.createConfigurationContextFromFileSystem(ConfigurationContextFactory.java:210)
+	at blackboard.ws.client.WebServiceClient.initialize(WebServiceClient.java:164)
+	at blackboard.ws.client.SampleExtractApp.main(SampleExtractApp.java:52)
+Caused by: java.lang.ClassNotFoundException: org.apache.ws.secpolicy.WSSPolicyException
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 20 more
+2015-10-01 14:32:59 | INFO  | 112:blackboard.ws.client.SampleExtractApp              | EXTRACT COMPLETE
+2015-10-01 14:44:34 | INFO  |  43:blackboard.ws.client.SampleExtractApp              | Creating Web Service Client
+2015-10-01 14:44:34 | INFO  | 160:blackboard.ws.client.WebServiceClient              | Initializing...
+2015-10-01 14:44:34 | ERROR | 113:org.apache.axis2.deployment.ModuleDeployer         | The rampart-1.6.2.mar module, which is not valid, caused org/apache/ws/secpolicy/WSSPolicyException
+java.lang.NoClassDefFoundError: org/apache/ws/secpolicy/WSSPolicyException
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getConstructor0(Class.java:3075)
+	at java.lang.Class.newInstance(Class.java:412)
+	at org.apache.axis2.deployment.util.Utils$1.run(Utils.java:100)
+	at org.apache.axis2.java.security.AccessController.doPrivileged(AccessController.java:132)
+	at org.apache.axis2.deployment.util.Utils.addFlowHandlers(Utils.java:96)
+	at org.apache.axis2.deployment.DeploymentEngine.addNewModule(DeploymentEngine.java:549)
+	at org.apache.axis2.deployment.ModuleDeployer.deploy(ModuleDeployer.java:80)
+	at org.apache.axis2.deployment.repository.util.DeploymentFileData.deploy(DeploymentFileData.java:136)
+	at org.apache.axis2.deployment.DeploymentEngine.doDeploy(DeploymentEngine.java:813)
+	at org.apache.axis2.deployment.RepositoryListener.loadClassPathModules(RepositoryListener.java:222)
+	at org.apache.axis2.deployment.RepositoryListener.init2(RepositoryListener.java:71)
+	at org.apache.axis2.deployment.RepositoryListener.<init>(RepositoryListener.java:64)
+	at org.apache.axis2.deployment.DeploymentEngine.loadRepository(DeploymentEngine.java:158)
+	at org.apache.axis2.deployment.FileSystemConfigurator.getAxisConfiguration(FileSystemConfigurator.java:133)
+	at org.apache.axis2.context.ConfigurationContextFactory.createConfigurationContext(ConfigurationContextFactory.java:64)
+	at org.apache.axis2.context.ConfigurationContextFactory.createConfigurationContextFromFileSystem(ConfigurationContextFactory.java:210)
+	at blackboard.ws.client.WebServiceClient.initialize(WebServiceClient.java:165)
+	at blackboard.ws.client.SampleExtractApp.main(SampleExtractApp.java:52)
+Caused by: java.lang.ClassNotFoundException: org.apache.ws.secpolicy.WSSPolicyException
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 20 more
+2015-10-01 14:44:34 | INFO  | 112:blackboard.ws.client.SampleExtractApp              | EXTRACT COMPLETE
+2015-10-01 14:47:25 | INFO  |  43:blackboard.ws.client.SampleExtractApp              | Creating Web Service Client
+2015-10-01 14:47:25 | INFO  | 160:blackboard.ws.client.WebServiceClient              | Initializing...
+2015-10-01 14:47:25 | ERROR | 113:org.apache.axis2.deployment.ModuleDeployer         | The rampart-1.6.2.mar module, which is not valid, caused org/apache/ws/secpolicy/WSSPolicyException
+java.lang.NoClassDefFoundError: org/apache/ws/secpolicy/WSSPolicyException
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getConstructor0(Class.java:3075)
+	at java.lang.Class.newInstance(Class.java:412)
+	at org.apache.axis2.deployment.util.Utils$1.run(Utils.java:100)
+	at org.apache.axis2.java.security.AccessController.doPrivileged(AccessController.java:132)
+	at org.apache.axis2.deployment.util.Utils.addFlowHandlers(Utils.java:96)
+	at org.apache.axis2.deployment.DeploymentEngine.addNewModule(DeploymentEngine.java:549)
+	at org.apache.axis2.deployment.ModuleDeployer.deploy(ModuleDeployer.java:80)
+	at org.apache.axis2.deployment.repository.util.DeploymentFileData.deploy(DeploymentFileData.java:136)
+	at org.apache.axis2.deployment.DeploymentEngine.doDeploy(DeploymentEngine.java:813)
+	at org.apache.axis2.deployment.RepositoryListener.loadClassPathModules(RepositoryListener.java:222)
+	at org.apache.axis2.deployment.RepositoryListener.init2(RepositoryListener.java:71)
+	at org.apache.axis2.deployment.RepositoryListener.<init>(RepositoryListener.java:64)
+	at org.apache.axis2.deployment.DeploymentEngine.loadRepository(DeploymentEngine.java:158)
+	at org.apache.axis2.deployment.FileSystemConfigurator.getAxisConfiguration(FileSystemConfigurator.java:133)
+	at org.apache.axis2.context.ConfigurationContextFactory.createConfigurationContext(ConfigurationContextFactory.java:64)
+	at org.apache.axis2.context.ConfigurationContextFactory.createConfigurationContextFromFileSystem(ConfigurationContextFactory.java:210)
+	at blackboard.ws.client.WebServiceClient.initialize(WebServiceClient.java:165)
+	at blackboard.ws.client.SampleExtractApp.main(SampleExtractApp.java:52)
+Caused by: java.lang.ClassNotFoundException: org.apache.ws.secpolicy.WSSPolicyException
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 20 more
+2015-10-01 14:47:25 | INFO  | 112:blackboard.ws.client.SampleExtractApp              | EXTRACT COMPLETE
+2015-10-01 14:49:43 | INFO  |  43:blackboard.ws.client.SampleExtractApp              | Creating Web Service Client
+2015-10-01 14:49:43 | INFO  | 160:blackboard.ws.client.WebServiceClient              | Initializing...
+2015-10-01 14:49:43 | INFO  | 204:blackboard.ws.client.WebServiceClient              | Checking versions...
+2015-10-01 14:51:36 | INFO  |  43:blackboard.ws.client.SampleExtractApp              | Creating Web Service Client
+2015-10-01 14:51:36 | INFO  | 160:blackboard.ws.client.WebServiceClient              | Initializing...
+2015-10-01 14:51:37 | INFO  | 204:blackboard.ws.client.WebServiceClient              | Checking versions...

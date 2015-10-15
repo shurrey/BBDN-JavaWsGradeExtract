@@ -1,0 +1,197 @@
+2015-10-08 13:52:14 | INFO  |  43:blackboard.ws.client.SampleExtractApp              | Creating Web Service Client
+2015-10-08 13:52:14 | INFO  | 160:blackboard.ws.client.WebServiceClient              | Initializing...
+2015-10-08 13:52:15 | INFO  | 204:blackboard.ws.client.WebServiceClient              | Checking versions...
+2015-10-08 13:52:18 | INFO  | 208:blackboard.ws.client.WebServiceClient              | Context server version: 2
+2015-10-08 13:52:19 | INFO  | 212:blackboard.ws.client.WebServiceClient              | User server version: 1
+2015-10-08 13:52:20 | INFO  | 216:blackboard.ws.client.WebServiceClient              | Util server version: 2
+2015-10-08 13:52:20 | INFO  | 222:blackboard.ws.client.WebServiceClient              | Initializing the session...
+2015-10-08 13:52:22 | INFO  | 225:blackboard.ws.client.WebServiceClient              | Session Id: 4536888d768b44d9a1f36ee29021dc3a
+2015-10-08 13:52:22 | INFO  | 227:blackboard.ws.client.WebServiceClient              | Initializing Util Context...
+2015-10-08 13:52:22 | INFO  | 234:blackboard.ws.client.WebServiceClient              | Initializing User Context...
+2015-10-08 13:52:23 | INFO  | 241:blackboard.ws.client.WebServiceClient              | Initializing Course Context...
+2015-10-08 13:52:26 | INFO  | 248:blackboard.ws.client.WebServiceClient              | Initializing Course Membership Context...
+2015-10-08 13:52:27 | INFO  | 255:blackboard.ws.client.WebServiceClient              | Initializing Gradebook Context...
+2015-10-08 13:52:28 | INFO  | 263:blackboard.ws.client.WebServiceClient              | Registering Tool...
+2015-10-08 13:52:30 | WARN  | 276:blackboard.ws.client.WebServiceClient              | Errors/warnings registering tool: 
+2015-10-08 13:52:30 | WARN  | 279:blackboard.ws.client.WebServiceClient              |  - Cannot reregister an activated client
+2015-10-08 13:52:30 | INFO  | 284:blackboard.ws.client.WebServiceClient              | Initialization complete.
+2015-10-08 13:52:30 | INFO  |  70:blackboard.ws.client.SampleExtractApp              | Loading course: amarillo-101
+2015-10-08 13:52:32 | INFO  | 112:blackboard.ws.client.SampleExtractApp              | EXTRACT COMPLETE
+2015-10-08 13:52:56 | INFO  |  43:blackboard.ws.client.SampleExtractApp              | Creating Web Service Client
+2015-10-08 13:52:56 | INFO  | 160:blackboard.ws.client.WebServiceClient              | Initializing...
+2015-10-08 13:52:56 | INFO  | 204:blackboard.ws.client.WebServiceClient              | Checking versions...
+2015-10-08 13:52:58 | INFO  | 208:blackboard.ws.client.WebServiceClient              | Context server version: 2
+2015-10-08 13:52:59 | INFO  | 212:blackboard.ws.client.WebServiceClient              | User server version: 1
+2015-10-08 13:53:00 | INFO  | 216:blackboard.ws.client.WebServiceClient              | Util server version: 2
+2015-10-08 13:53:00 | INFO  | 222:blackboard.ws.client.WebServiceClient              | Initializing the session...
+2015-10-08 13:53:00 | INFO  | 225:blackboard.ws.client.WebServiceClient              | Session Id: 057b0d5755f741fda0959abdf0e256ff
+2015-10-08 13:53:00 | INFO  | 227:blackboard.ws.client.WebServiceClient              | Initializing Util Context...
+2015-10-08 13:53:01 | INFO  | 234:blackboard.ws.client.WebServiceClient              | Initializing User Context...
+2015-10-08 13:53:02 | INFO  | 241:blackboard.ws.client.WebServiceClient              | Initializing Course Context...
+2015-10-08 13:53:04 | INFO  | 248:blackboard.ws.client.WebServiceClient              | Initializing Course Membership Context...
+2015-10-08 13:53:04 | INFO  | 255:blackboard.ws.client.WebServiceClient              | Initializing Gradebook Context...
+2015-10-08 13:53:05 | INFO  | 263:blackboard.ws.client.WebServiceClient              | Registering Tool...
+2015-10-08 13:53:06 | WARN  | 276:blackboard.ws.client.WebServiceClient              | Errors/warnings registering tool: 
+2015-10-08 13:53:06 | WARN  | 279:blackboard.ws.client.WebServiceClient              |  - Cannot reregister an activated client
+2015-10-08 13:53:06 | INFO  | 284:blackboard.ws.client.WebServiceClient              | Initialization complete.
+2015-10-08 13:53:07 | INFO  |  70:blackboard.ws.client.SampleExtractApp              | Loading course: _957_1
+2015-10-08 13:53:08 | INFO  |  78:blackboard.ws.client.SampleExtractApp              |  Loading users for course: Oceanography
+2015-10-08 13:53:09 | INFO  |  80:blackboard.ws.client.SampleExtractApp              |  Loaded [4] users for course: Oceanography
+2015-10-08 13:53:09 | INFO  |  82:blackboard.ws.client.SampleExtractApp              |   username=shurrey, batchUid=shurrey, Id=_205_1
+2015-10-08 13:53:09 | INFO  |  82:blackboard.ws.client.SampleExtractApp              |   username=sprof, batchUid=sprof, Id=_1403_1
+2015-10-08 13:53:09 | INFO  |  82:blackboard.ws.client.SampleExtractApp              |   username=shurrey_previewuser, batchUid=shurrey_previewuser, Id=_1420_1
+2015-10-08 13:53:09 | INFO  |  82:blackboard.ws.client.SampleExtractApp              |   username=sstudent, batchUid=sstudent, Id=_232_1
+2015-10-08 13:53:09 | INFO  |  86:blackboard.ws.client.SampleExtractApp              |  Loading student memberships for course: Oceanography
+2015-10-08 13:53:10 | INFO  |  89:blackboard.ws.client.SampleExtractApp              |  Loaded [2] student memberships for course: Oceanography
+2015-10-08 13:53:10 | INFO  |  91:blackboard.ws.client.SampleExtractApp              |   membershipId=_2107_1, userId=_1420_1
+2015-10-08 13:53:10 | INFO  |  91:blackboard.ws.client.SampleExtractApp              |   membershipId=_2018_1, userId=_232_1
+2015-10-08 13:53:10 | INFO  |  95:blackboard.ws.client.SampleExtractApp              |  Loading columns for course: Oceanography
+2015-10-08 13:53:12 | INFO  |  97:blackboard.ws.client.SampleExtractApp              |  Loaded [41] columns for course: Oceanography
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=sdfsdf, columnId=_3319_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=NBC Test, columnId=_3179_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=COURSE AVG, columnId=_3387_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Weighted Total, columnId=_2206_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Total, columnId=_2207_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Attendance, columnId=_2208_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Ch1 Assign, columnId=_2209_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Ch1 Survey, columnId=_2210_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Ch3 Discussion, columnId=_2211_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Section 3.4 - Quiz, columnId=_2212_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Class Discussions: Issues in Oceanography, columnId=_2213_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Chapter 3 Self-check, columnId=_2214_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=PSD Tutorial, columnId=_2215_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Final Exam, columnId=_2216_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Effects of Global Warming on the Oceans, columnId=_2217_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Ocean Salinity Analysis, columnId=_2218_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Ocean Salinity Analysis Part II, columnId=_2219_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Final Paper - Letter to Policymakers, columnId=_2220_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Introduction to Oceanography: Graded Discussions, columnId=_2221_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Chapter 1 Peer Assessment, columnId=_2222_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Chapter 3 Peer Assessment, columnId=_2223_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Book Review, columnId=_2224_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Ch. 1 Test, columnId=_2225_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Chapter 1 Review, columnId=_2240_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Participation, columnId=_2226_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Chapter 1 Self-check - Requires Respondus LockDown Browser, columnId=_2227_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Lab Journal, columnId=_2228_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Chapter 1 Peer Assessment, columnId=_2229_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Chapter 3 Peer Assessment, columnId=_2230_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Chapter 3 Peer Assessment, columnId=_2231_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Introductory Assignment, columnId=_2232_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Decide on Research Topic, columnId=_2233_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Bio Blog, columnId=_2234_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Running Total, columnId=_2235_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Weighted Total, columnId=_2236_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=First Self and Peer Assessment, columnId=_2237_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Assignment, columnId=_2238_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Chapter 1 Peer Assessment, columnId=_2239_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=The lynda.com Story, columnId=_3316_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Chapter 1 Test - History of Ocean Exploration and Ocean Science, columnId=_3484_1
+2015-10-08 13:53:12 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Arctic Quiz, columnId=_3165_1
+2015-10-08 13:53:12 | INFO  | 103:blackboard.ws.client.SampleExtractApp              |  Loading grades for course: Oceanography
+2015-10-08 13:53:14 | INFO  | 105:blackboard.ws.client.SampleExtractApp              |  Loaded [15] grades course: Oceanography
+2015-10-08 13:53:14 | INFO  | 107:blackboard.ws.client.SampleExtractApp              |   grade=A, columnId=_2209_1, memberId=_2107_1
+2015-10-08 13:53:14 | INFO  | 107:blackboard.ws.client.SampleExtractApp              |   grade=A, columnId=_2209_1, memberId=_2018_1
+2015-10-08 13:53:14 | INFO  | 107:blackboard.ws.client.SampleExtractApp              |   grade=null, columnId=_3179_1, memberId=_1595_1
+2015-10-08 13:53:14 | INFO  | 107:blackboard.ws.client.SampleExtractApp              |   grade=75.95, columnId=_2216_1, memberId=_2107_1
+2015-10-08 13:53:14 | INFO  | 107:blackboard.ws.client.SampleExtractApp              |   grade=null, columnId=_2225_1, memberId=_2018_1
+2015-10-08 13:53:14 | INFO  | 107:blackboard.ws.client.SampleExtractApp              |   grade=8.02%, columnId=_2235_1, memberId=_2018_1
+2015-10-08 13:53:14 | INFO  | 107:blackboard.ws.client.SampleExtractApp              |   grade=14.11%, columnId=_2235_1, memberId=_2107_1
+2015-10-08 13:53:14 | INFO  | 107:blackboard.ws.client.SampleExtractApp              |   grade=, columnId=_3387_1, memberId=_2018_1
+2015-10-08 13:53:14 | INFO  | 107:blackboard.ws.client.SampleExtractApp              |   grade=, columnId=_3387_1, memberId=_2107_1
+2015-10-08 13:53:14 | INFO  | 107:blackboard.ws.client.SampleExtractApp              |   grade=, columnId=_2236_1, memberId=_2018_1
+2015-10-08 13:53:14 | INFO  | 107:blackboard.ws.client.SampleExtractApp              |   grade=, columnId=_2236_1, memberId=_2107_1
+2015-10-08 13:53:14 | INFO  | 107:blackboard.ws.client.SampleExtractApp              |   grade=, columnId=_2206_1, memberId=_2018_1
+2015-10-08 13:53:14 | INFO  | 107:blackboard.ws.client.SampleExtractApp              |   grade=, columnId=_2206_1, memberId=_2107_1
+2015-10-08 13:53:14 | INFO  | 107:blackboard.ws.client.SampleExtractApp              |   grade=100.00, columnId=_2207_1, memberId=_2018_1
+2015-10-08 13:53:14 | INFO  | 107:blackboard.ws.client.SampleExtractApp              |   grade=175.95, columnId=_2207_1, memberId=_2107_1
+2015-10-08 13:53:15 | INFO  | 112:blackboard.ws.client.SampleExtractApp              | EXTRACT COMPLETE
+2015-10-08 15:38:37 | INFO  |  43:blackboard.ws.client.SampleExtractApp              | Creating Web Service Client
+2015-10-08 15:38:37 | INFO  | 160:blackboard.ws.client.WebServiceClient              | Initializing...
+2015-10-08 15:38:38 | INFO  | 204:blackboard.ws.client.WebServiceClient              | Checking versions...
+2015-10-08 15:38:41 | INFO  | 208:blackboard.ws.client.WebServiceClient              | Context server version: 2
+2015-10-08 15:38:43 | INFO  | 212:blackboard.ws.client.WebServiceClient              | User server version: 1
+2015-10-08 15:38:44 | INFO  | 216:blackboard.ws.client.WebServiceClient              | Util server version: 2
+2015-10-08 15:38:44 | INFO  | 222:blackboard.ws.client.WebServiceClient              | Initializing the session...
+2015-10-08 15:38:45 | INFO  | 225:blackboard.ws.client.WebServiceClient              | Session Id: 69f259a308274ccb8fc23573a39b3765
+2015-10-08 15:38:45 | INFO  | 227:blackboard.ws.client.WebServiceClient              | Initializing Util Context...
+2015-10-08 15:38:45 | INFO  | 234:blackboard.ws.client.WebServiceClient              | Initializing User Context...
+2015-10-08 15:38:46 | INFO  | 241:blackboard.ws.client.WebServiceClient              | Initializing Course Context...
+2015-10-08 15:38:49 | INFO  | 248:blackboard.ws.client.WebServiceClient              | Initializing Course Membership Context...
+2015-10-08 15:38:50 | INFO  | 255:blackboard.ws.client.WebServiceClient              | Initializing Gradebook Context...
+2015-10-08 15:38:51 | INFO  | 263:blackboard.ws.client.WebServiceClient              | Registering Tool...
+2015-10-08 15:38:52 | WARN  | 276:blackboard.ws.client.WebServiceClient              | Errors/warnings registering tool: 
+2015-10-08 15:38:52 | WARN  | 279:blackboard.ws.client.WebServiceClient              |  - Cannot reregister an activated client
+2015-10-08 15:38:52 | INFO  | 284:blackboard.ws.client.WebServiceClient              | Initialization complete.
+2015-10-08 15:38:53 | INFO  |  70:blackboard.ws.client.SampleExtractApp              | Loading course: _957_1
+2015-10-08 15:38:54 | INFO  |  78:blackboard.ws.client.SampleExtractApp              |  Loading users for course: Oceanography
+2015-10-08 15:38:55 | INFO  |  80:blackboard.ws.client.SampleExtractApp              |  Loaded [4] users for course: Oceanography
+2015-10-08 15:38:55 | INFO  |  82:blackboard.ws.client.SampleExtractApp              |   username=shurrey, batchUid=shurrey, Id=_205_1
+2015-10-08 15:38:55 | INFO  |  82:blackboard.ws.client.SampleExtractApp              |   username=sprof, batchUid=sprof, Id=_1403_1
+2015-10-08 15:38:55 | INFO  |  82:blackboard.ws.client.SampleExtractApp              |   username=shurrey_previewuser, batchUid=shurrey_previewuser, Id=_1420_1
+2015-10-08 15:38:55 | INFO  |  82:blackboard.ws.client.SampleExtractApp              |   username=sstudent, batchUid=sstudent, Id=_232_1
+2015-10-08 15:38:55 | INFO  |  86:blackboard.ws.client.SampleExtractApp              |  Loading student memberships for course: Oceanography
+2015-10-08 15:38:57 | INFO  |  89:blackboard.ws.client.SampleExtractApp              |  Loaded [2] student memberships for course: Oceanography
+2015-10-08 15:38:57 | INFO  |  91:blackboard.ws.client.SampleExtractApp              |   membershipId=_2107_1, userId=_1420_1
+2015-10-08 15:38:57 | INFO  |  91:blackboard.ws.client.SampleExtractApp              |   membershipId=_2018_1, userId=_232_1
+2015-10-08 15:38:57 | INFO  |  95:blackboard.ws.client.SampleExtractApp              |  Loading columns for course: Oceanography
+2015-10-08 15:38:58 | INFO  |  97:blackboard.ws.client.SampleExtractApp              |  Loaded [41] columns for course: Oceanography
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=sdfsdf, columnId=_3319_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=NBC Test, columnId=_3179_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=COURSE AVG, columnId=_3387_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Weighted Total, columnId=_2206_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Total, columnId=_2207_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Attendance, columnId=_2208_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Ch1 Assign, columnId=_2209_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Ch1 Survey, columnId=_2210_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Ch3 Discussion, columnId=_2211_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Section 3.4 - Quiz, columnId=_2212_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Class Discussions: Issues in Oceanography, columnId=_2213_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Chapter 3 Self-check, columnId=_2214_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=PSD Tutorial, columnId=_2215_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Final Exam, columnId=_2216_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Effects of Global Warming on the Oceans, columnId=_2217_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Ocean Salinity Analysis, columnId=_2218_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Ocean Salinity Analysis Part II, columnId=_2219_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Final Paper - Letter to Policymakers, columnId=_2220_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Introduction to Oceanography: Graded Discussions, columnId=_2221_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Chapter 1 Peer Assessment, columnId=_2222_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Chapter 3 Peer Assessment, columnId=_2223_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Book Review, columnId=_2224_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Ch. 1 Test, columnId=_2225_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Chapter 1 Review, columnId=_2240_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Participation, columnId=_2226_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Chapter 1 Self-check - Requires Respondus LockDown Browser, columnId=_2227_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Lab Journal, columnId=_2228_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Chapter 1 Peer Assessment, columnId=_2229_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Chapter 3 Peer Assessment, columnId=_2230_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Chapter 3 Peer Assessment, columnId=_2231_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Introductory Assignment, columnId=_2232_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Decide on Research Topic, columnId=_2233_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Bio Blog, columnId=_2234_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Running Total, columnId=_2235_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Weighted Total, columnId=_2236_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=First Self and Peer Assessment, columnId=_2237_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Assignment, columnId=_2238_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Chapter 1 Peer Assessment, columnId=_2239_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=The lynda.com Story, columnId=_3316_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Chapter 1 Test - History of Ocean Exploration and Ocean Science, columnId=_3484_1
+2015-10-08 15:38:58 | INFO  |  99:blackboard.ws.client.SampleExtractApp              |   columnDisplayName=Arctic Quiz, columnId=_3165_1
+2015-10-08 15:38:58 | INFO  | 103:blackboard.ws.client.SampleExtractApp              |  Loading grades for course: Oceanography
+2015-10-08 15:39:00 | INFO  | 105:blackboard.ws.client.SampleExtractApp              |  Loaded [15] grades course: Oceanography
+2015-10-08 15:39:00 | INFO  | 107:blackboard.ws.client.SampleExtractApp              |   grade=A, columnId=_2209_1, memberId=_2107_1
+2015-10-08 15:39:00 | INFO  | 107:blackboard.ws.client.SampleExtractApp              |   grade=A, columnId=_2209_1, memberId=_2018_1
+2015-10-08 15:39:00 | INFO  | 107:blackboard.ws.client.SampleExtractApp              |   grade=null, columnId=_3179_1, memberId=_1595_1
+2015-10-08 15:39:00 | INFO  | 107:blackboard.ws.client.SampleExtractApp              |   grade=75.95, columnId=_2216_1, memberId=_2107_1
+2015-10-08 15:39:00 | INFO  | 107:blackboard.ws.client.SampleExtractApp              |   grade=null, columnId=_2225_1, memberId=_2018_1
+2015-10-08 15:39:00 | INFO  | 107:blackboard.ws.client.SampleExtractApp              |   grade=8.02%, columnId=_2235_1, memberId=_2018_1
+2015-10-08 15:39:00 | INFO  | 107:blackboard.ws.client.SampleExtractApp              |   grade=14.11%, columnId=_2235_1, memberId=_2107_1
+2015-10-08 15:39:00 | INFO  | 107:blackboard.ws.client.SampleExtractApp              |   grade=, columnId=_3387_1, memberId=_2018_1
+2015-10-08 15:39:00 | INFO  | 107:blackboard.ws.client.SampleExtractApp              |   grade=, columnId=_3387_1, memberId=_2107_1
+2015-10-08 15:39:00 | INFO  | 107:blackboard.ws.client.SampleExtractApp              |   grade=, columnId=_2236_1, memberId=_2018_1
+2015-10-08 15:39:00 | INFO  | 107:blackboard.ws.client.SampleExtractApp              |   grade=, columnId=_2236_1, memberId=_2107_1
+2015-10-08 15:39:00 | INFO  | 107:blackboard.ws.client.SampleExtractApp              |   grade=, columnId=_2206_1, memberId=_2018_1
+2015-10-08 15:39:00 | INFO  | 107:blackboard.ws.client.SampleExtractApp              |   grade=, columnId=_2206_1, memberId=_2107_1
+2015-10-08 15:39:00 | INFO  | 107:blackboard.ws.client.SampleExtractApp              |   grade=100.00, columnId=_2207_1, memberId=_2018_1
+2015-10-08 15:39:00 | INFO  | 107:blackboard.ws.client.SampleExtractApp              |   grade=175.95, columnId=_2207_1, memberId=_2107_1
+2015-10-08 15:39:01 | INFO  | 112:blackboard.ws.client.SampleExtractApp              | EXTRACT COMPLETE

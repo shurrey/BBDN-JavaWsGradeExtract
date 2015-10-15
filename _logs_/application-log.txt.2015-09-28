@@ -1,0 +1,27 @@
+2015-09-28 15:19:44 | INFO  |  43:blackboard.ws.client.SampleExtractApp              | Creating Web Service Client
+2015-09-28 15:19:44 | INFO  | 160:blackboard.ws.client.WebServiceClient              | Initializing...
+2015-09-28 15:19:44 | INFO  | 112:blackboard.ws.client.SampleExtractApp              | EXTRACT COMPLETE
+2015-09-28 15:21:22 | INFO  |  43:blackboard.ws.client.SampleExtractApp              | Creating Web Service Client
+2015-09-28 15:21:22 | INFO  | 160:blackboard.ws.client.WebServiceClient              | Initializing...
+2015-09-28 15:21:23 | INFO  | 112:blackboard.ws.client.SampleExtractApp              | EXTRACT COMPLETE
+2015-09-28 15:25:01 | INFO  |  43:blackboard.ws.client.SampleExtractApp              | Creating Web Service Client
+2015-09-28 15:25:01 | INFO  | 160:blackboard.ws.client.WebServiceClient              | Initializing...
+2015-09-28 15:25:01 | INFO  | 112:blackboard.ws.client.SampleExtractApp              | EXTRACT COMPLETE
+2015-09-28 16:02:44 | INFO  | 102:blackboard.ws.client.GradeExtractApp               | EXTRACT STARTED : Mon Sep 28 16:02:44 EDT 2015
+2015-09-28 16:02:44 | INFO  | 160:blackboard.ws.client.WebServiceClient              | Initializing...
+2015-09-28 16:02:45 | ERROR | 110:blackboard.ws.client.GradeExtractApp               | The system is attempting to engage a module that is not available: addressing
+org.apache.axis2.AxisFault: The system is attempting to engage a module that is not available: addressing
+	at org.apache.axis2.engine.AxisConfiguration.engageModule(AxisConfiguration.java:440)
+	at org.apache.axis2.engine.AxisConfiguration.engageGlobalModules(AxisConfiguration.java:567)
+	at org.apache.axis2.deployment.DeploymentEngine.engageModules(DeploymentEngine.java:589)
+	at org.apache.axis2.deployment.FileSystemConfigurator.engageGlobalModules(FileSystemConfigurator.java:141)
+	at org.apache.axis2.context.ConfigurationContextFactory.createConfigurationContext(ConfigurationContextFactory.java:77)
+	at org.apache.axis2.context.ConfigurationContextFactory.createConfigurationContextFromFileSystem(ConfigurationContextFactory.java:180)
+	at blackboard.ws.client.WebServiceClient.initialize(WebServiceClient.java:164)
+	at blackboard.ws.client.GradeExtractApp.newWebServiceClient(GradeExtractApp.java:354)
+	at blackboard.ws.client.GradeExtractApp.doMain(GradeExtractApp.java:126)
+	at blackboard.ws.client.GradeExtractApp.main(GradeExtractApp.java:106)
+2015-09-28 16:02:45 | INFO  | 113:blackboard.ws.client.GradeExtractApp               | EXTRACT START TIME: Mon Sep 28 16:02:44 EDT 2015
+2015-09-28 16:02:45 | INFO  | 114:blackboard.ws.client.GradeExtractApp               | EXTRACT COMPLETED : Mon Sep 28 16:02:45 EDT 2015
+2015-09-28 16:02:45 | ERROR | 116:blackboard.ws.client.GradeExtractApp               | ERRORS(1):
+2015-09-28 16:02:45 | ERROR | 118:blackboard.ws.client.GradeExtractApp               |  - The system is attempting to engage a module that is not available: addressing

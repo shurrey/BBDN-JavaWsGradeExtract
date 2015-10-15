@@ -1,0 +1,6 @@
+#surefire
+#Thu Apr 26 14:21:09 IST 2012
+user.dir=/home/sagara/dev/code/apache/rampart/1.6/target/checkout/modules/rampart-samples
+maven.repo.local=/home/sagara/dev/tools/build/m2_repo
+localRepository=/home/sagara/dev/tools/build/m2_repo
+basedir=/home/sagara/dev/code/apache/rampart/1.6/target/checkout/modules/rampart-samples
