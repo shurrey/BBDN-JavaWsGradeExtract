@@ -1,22 +1,13 @@
 # BBDN-JavaWsGradeExtract
-#####
-##### Sample Web Service Client and Grade Extract
-#####
-##### Follow the steps below to enable the Blackboard web services and launch
-##### the sample grade extract application.  The samples in this project rely
-##### entirely on the Blackboard Web Services to extract data.  The only
-##### requirements are a Blackboard Learn environment and a locally installed
-##### Java SDK version 1.6 or later.
-#####
-##### This readme has been written primarily for a Windows client deployment
-##### (server version of Blackboard does not matter), but could just as easily
-##### be deployed in a UNIX environment.  Just use UNIX commands where
-##### appropriate.
-#####
 
-###
+Sample Web Service Client and Grade Extract
+
+Follow the steps below to enable the Blackboard web services and launch the sample grade extract application.  The samples in this project rely entirely on the Blackboard Web Services to extract data.  The only requirements are a Blackboard Learn environment and a locally installed Java SDK version 1.6 or later.
+
+
+This readme has been written primarily for a Windows client deployment (server version of Blackboard does not matter), but could just as easily be deployed in a UNIX environment.  Just use UNIX commands where appropriate.
+
 ### Step 0: Download and Install the Java SDK
-###
 
 If you don't currently have the Java SDK on your environment, download it from:
   http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
@@ -32,13 +23,9 @@ running the extract commands, i.e:
   set JAVA_HOME=C:\java\jdk1_7
 
 
-###
 ### Step 1: Download the Required 3rd-party Libraries and Tools
-###
-### This sample web services application requires some 3rd-party libraries in
-### order to run.  If you use different versions than those referenced below, 
-### be sure to update the configuration (application.properties) accordingly.
-###
+
+This sample web services application requires some 3rd-party libraries in order to run.  If you use different versions than those referenced below, be sure to update the configuration (application.properties) accordingly.
 
 1) DOWNLOAD axis2-1.6.2-bin.zip from:
      http://axis.apache.org/axis2/java/core/download.cgi
@@ -81,9 +68,7 @@ running the extract commands, i.e:
    which contains sub-folders folders such as /bin/, /lib/, /etc/
 
 
-###
 ### Step 2: Enabled Blackboard Web Services
-###
 
 1) As a System Administrator in Blackboard, navigate to:
      System Admin -> Web Services (in the Building Blocks module)
@@ -101,9 +86,7 @@ running the extract commands, i.e:
 3) Repeat (2) above for Discoverability -> Make Discoverable
 
 
-###
 ### Step 3: Get the Tool Registration Password for Proxy Tools
-###
 
 1) As a System Administrator in Blackboard, navigate to:
      System Admin -> Building Blocks -> Proxy Tools
@@ -114,9 +97,7 @@ running the extract commands, i.e:
    the password as it will be used later in the configuration.
 
 
-###
 ### Step 4: Initial Application Configuration
-###
 
 1) Copy the application.properties.template file to a file named
    application.properties in the same directory.
@@ -127,14 +108,9 @@ running the extract commands, i.e:
 3) Go through the properties file and enter the Web Service Configuration
 
 
-###
 ### Step 5: Building the Web Services Client
-###
-### Before you can run the web services client, you must build the client from
-### the web service WSDLs.  The commands below will build and compile the
-### client classes needed to run the sample and extract provided with this
-### project.
-###
+
+Before you can run the web services client, you must build the client from the web service WSDLs.  The commands below will build and compile the client classes needed to run the sample and extract provided with this project.
 
 1) On the command line, navigate to %WS_SAMPLE_HOME%
 
@@ -158,9 +134,7 @@ running the extract commands, i.e:
      /_classes_/
 
 
-###
 ### Step 6: Run the Sample Extract to Validate the Configuration
-###
 
 In this step, you will launch the sample application from the command line in
 order to validate the web service configuration.  For this step, you need at
@@ -230,10 +204,7 @@ like c:\bbsamplews\) which could be any directory on your file system.
   that the command can be run from any directory on the system as long as the
   location of the build.xml file is provided.
 
-
-###
 ### Step 7: Run the Full Grade Extract Application
-###
 
 The last set of properties in application.properties apply to the full grade
 extract application.  When initially testing the full extract, it is best to
@@ -250,20 +221,18 @@ Application logs and reports can be found in the /_logs_/ and /_reports_/
 directories respectively.
 
 
-###
 ### Additional Command Line Options
-###
 
-## providing courseId on the command line for the sample extract
+providing courseId on the command line for the sample extract
 tools\apache-ant-1.9.0\bin\ant.bat launchSample -DcourseId=[TargetCourseId]
 
-## providing properties file on the command line for the full extract
+providing properties file on the command line for the full extract
 tools\apache-ant-1.9.0\bin\ant.bat launchSample -DappConfig=/path/to/yourconfig.properties
 
-## running the commands from a location other than the project home directory
+running the commands from a location other than the project home directory
 path\to\ant_home\bin\ant.bat launchExtract -f path\to\build.xml
 
-## setting JAVA_HOME with the command
+setting JAVA_HOME with the command
 Instead of setting JAVA_HOME as an environment variable, you can add it to your
 command-line launch.  Windows example:
 
@@ -274,16 +243,12 @@ Unix example:
   JAVA_HOME=/usr/local/java/jdk1_7; tools/apache-ant-1.9.0/bin/ant launchExtract
 
 
-###
 ### Logging
-###
 
 All command line and logging output is defined in /src/log4j.properties
 
 
-###
 ### Modifying the Source Code
-###
 
 You should not directly modify any of the generated sources or classes found
 in the /_X_/ directories.  The web service client and either of the two extract
