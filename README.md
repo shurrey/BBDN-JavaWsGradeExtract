@@ -27,44 +27,44 @@ running the extract commands, i.e:
 
 This sample web services application requires some 3rd-party libraries in order to run.  If you use different versions than those referenced below, be sure to update the configuration (application.properties) accordingly.
 
-1) DOWNLOAD axis2-1.6.2-bin.zip from:
-     http://axis.apache.org/axis2/java/core/download.cgi
+1) DOWNLOAD axis2-1.6.2-bin.zip from:<br />
+     http://axis.apache.org/axis2/java/core/download.cgi<br />
    and unzip it to the ./lib/ directory of this project.  If a ./lib/ directory
    does not yet exist, create it.  When you are done, you should have the
-   following folder:
-     ./lib/axis2-1.6.2/
+   following folder:<br />
+     ./lib/axis2-1.6.2/<br />
    which contains sub-folders folders such as /lib/, /conf/, /samples/
 
 2) COPY ./lib/axis2-1.6.2/repository/modules/addressing-1.6.2.mar to the
    ./lib/axis2-1.6.2/lib/ directory.  When you are done, you should have the
-   following file in your project:
+   following file in your project:<br />
      ./lib/axis2-1.6.2/lib/addressing-1.6.2.mar
 
-3) DOWNLOAD rampart-dist-1.6.2-bin.zip from:
+3) DOWNLOAD rampart-dist-1.6.2-bin.zip from:<br />
      http://axis.apache.org/axis2/java/rampart/download/1.6.2/download.cgi
    and unzip it to the ./lib/ directory of this project.  When you are done,
-   you should have the following folder:
-     ./lib/rampart-1.6.2/
+   you should have the following folder:<br />
+     ./lib/rampart-1.6.2/<br />
    which contains sub-folders folders such as /lib/, /modules/, /samples/
 
 4) COPY ./lib/rampart-1.6.2/modules/rampart-1.6.2.mar to the
    ./lib/axis2-1.6.2/lib/ directory.  When you are done, you should have the
-   following file in your project:
+   following file in your project:<br />
      ./lib/axis2-1.6.2/lib/rampart-1.6.2.mar
 
 5) EDIT ./lib/axis2-1.6.2/conf/axis2.xml and find the following line in the
-   file (somewhere around line 256):
-     &gt;module ref="addressing"/&lt;
-   below that line, add the following line to the file:
-     &gt;module ref="rampart"/&lt;
+   file (somewhere around line 256):<br />
+     &lt;module ref="addressing"/&gt;<br />
+   below that line, add the following line to the file:<br />
+     &lt;module ref="rampart"/&gt;<br />
    and save the file and close it.
 
-6) DOWNLOAD apache-ant-1.9.0-bin.zip from:
-     http://ant.apache.org/bindownload.cgi
+6) DOWNLOAD apache-ant-1.9.0-bin.zip from:<br />
+     http://ant.apache.org/bindownload.cgi<br />
    and unzip it to the ./tools/ directory of this project.  If a ./tools/
    directory does not yet exist, create it.  When you are done, you should have
-   the following folder:
-     ./tools/apache-ant-1.9.0/
+   the following folder:<br />
+     ./tools/apache-ant-1.9.0/<br />
    which contains sub-folders folders such as /bin/, /lib/, /etc/
 
 
