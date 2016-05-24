@@ -54,9 +54,9 @@ This sample web services application requires some 3rd-party libraries in order 
 
 5) EDIT ./lib/axis2-1.6.2/conf/axis2.xml and find the following line in the
    file (somewhere around line 256):
-     <module ref="addressing"/>
+     &gt;module ref="addressing"/&lt;
    below that line, add the following line to the file:
-     <module ref="rampart"/>
+     &gt;module ref="rampart"/&lt;
    and save the file and close it.
 
 6) DOWNLOAD apache-ant-1.9.0-bin.zip from:
